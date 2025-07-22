@@ -1,0 +1,131 @@
+.hero {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('asset/back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-bottom: 3em;
+    padding-top: 8em;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1, .btn2 {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn1 {
+    background-color: darkblue;
+    color: #fff;
+}
+.btn1:hover{
+    background-color: white;
+    color: darkblue;
+}
+.btn2 {
+    background-color: orange;
+    color: white;
+}
+.btn2:hover{
+    background-color: white;
+    color: orange;
+}
+.Feature {
+    padding: 50px;
+    text-align: center;
+    padding-top: 8em;
+
+}
+
+.Feature h2 {
+    font-size: 36px;
+}
+
+.Feature .place {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 470px;
+    padding: 30px;
+    background-color: #f9f9ff;
+    text-align: start;
+    margin: 10px 0;
+}
+.Feature .place .kartu h3{
+    margin: 10px 0;
+}
+.cost{
+    background-color: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 380px;
+    top: -125px;
+}
+.Course {
+    padding: 50px;
+    text-align: center;
+    padding-top: 8em;
+    padding-bottom: 0;
+}
+
+.Course h2 {
+    font-size: 36px;
+}
+
+.Course .Courses {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.tempatnya {
+    width: 469px; 
+    text-align: start;
+    background-color: #f9f9ff;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.tempatnya img {
+    width: 469px;
+    height: 220px;
+}
+
+h2{
+    color: navy;
+}
+i{
+    color: rgb(21,21, 100)
+}
+.checked {
+    color: orange;
+}

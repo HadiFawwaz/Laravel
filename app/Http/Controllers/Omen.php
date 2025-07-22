@@ -11,13 +11,23 @@ class Omen extends Controller
      */
     public function index()
     {
+        $siswa = [
+            ['apalah' => 'Hadi', 'kelas' => ' x2'],
+            ['apalah' => 'aoddi ', 'kelas' => ' x3'],
+            ['apalah' => 'faiz', 'kelas' => ' x1'],
+            ['apalah' => 'entah ', 'kelas' => ' x4'],
+            ['apalah' => 'bima ', 'kelas' => ' x7'],
+            ['apalah' => 'au ah ', 'kelas' => ' xi 11'],
+            ['apalah' => 'hello ', 'kelas' => ' x rpl 1'],
+            ['apalah' => 'bim ', 'kelas' => ' x rpl 4'],
+            ['apalah' => 'p ', 'kelas' => ' x5'],
+        ];
         return view(
             'home',
             [
-                'nama' => 'Hadi Fawwaz Sudewo',
-                'kelas' => 'RPL 11',
                 'title' => 'Belajar Laravel',
-            ]
+            ],
+            compact('siswa')
         );
     }
 

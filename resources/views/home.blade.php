@@ -41,9 +41,29 @@
   </div>
   </div>
 </nav>
+<br><br><br><br><br>
     <h1>Laravel Framework No 1</h1>
-    <h2>Nama: {{ $nama }}</h2>
-    <h2>Kelas: {{ $kelas }}</h2>
+    <table>
+    <tr>
+        <th>
+            nama
+        </th>
+        <th>
+            kelas
+        </th>
+        </tr>
+        @foreach ( $siswa as $murid)
+        <tr>
+            <td>
+                {{ $murid ['apalah'] }} 
+            </td> <td>
+                  {{ $murid ['kelas'] }}
+            </td>
+        </tr>
+            
+        @endforeach
+        </table>
+    
     <a href="about">about</a>
     <a href="contact">contact</a>
     <a href="main">main</a>

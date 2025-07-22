@@ -49,7 +49,7 @@
     <section class="hero" id="h" data-aos="fade-up">
         <div class="text">
             <h1>Tingkatkan Masa Depan Dengan travel</h1>
-            <p>travel mempersiapkan Anda untuk menghadapi tantangan karir di era digital. travel <br>menyediakan semua yang Anda butuhkan untuk sukses.</p></div>
+            <p>travel mempersiapkan Anda untuk menghadapi tantangan karir di era digital.  <br>menyediakan semua yang Anda butuhkan untuk sukses.</p></div>
             <div class="buttons">
             <a href="#" class="btn1">Learn More</a>
             <a href="#" class="btn2">Visit Courses</a>

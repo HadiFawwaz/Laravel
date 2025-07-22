@@ -37,9 +37,37 @@
   </div>
   </div>
 </nav>
-    <H1>halaman about</H1>
-    <a href="home">home</a>
-    <a href="contact">contact</a>
-    <a href="main">main</a>
+<br><br><br>
+    
+
+    
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-2 bg-gray-50 dark:bg-gray-800">
+                    Nama
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-600">
+                    Kelas
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach ( $siswas as $murid)
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    {{ $murid ['nama'] }} 
+                </th>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-600">
+                    {{ $murid ['kelas'] }} 
+                </td>
+            </tr>
+        </tbody>
+         @endforeach
+    </table>
+</div>
+
 </body>
 </html>

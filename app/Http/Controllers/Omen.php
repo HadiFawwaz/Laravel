@@ -25,7 +25,7 @@ class Omen extends Controller
         return view(
             'home',
             [
-                'title' => 'Belajar Laravel',
+                'title' => 'Belajar Laravela',
             ],
             compact('siswa')
         );
